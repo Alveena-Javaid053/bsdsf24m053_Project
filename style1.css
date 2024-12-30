@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 5px 20px 5px 20px;
+}
+
+header.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar{
+    border: 5px;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+
+header .logo {
+    
+    font-size: 28px;
+    font-weight: bold;
+    color: #0056d2;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav .join {
+    color: white;
+    background-color: #0056d2;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav .login {
+    color: #0056d2;
+    font-weight: 600;
+}
+
+nav input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.degree{
+    padding: 20px ;
+    background-color: #0056d2;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.content-degree {
+    padding: 20px  ;
+  }
+  
+section h2 {
+    font-size: 36px;
+    margin: 20px 20px ;
+  
+  }
+  
+ section h3 {
+    font-size: 25px;
+    margin : 20px 20px ;
+  }
+  
+section p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 20px;
+  }
+
+section .enroll{
+    border: #333;
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 10px;
+    width: 100px;
+
+}
+ul{
+    padding: 20px;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+footer {
+     
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.answer {
+    display: none;
+    padding: 10px;
+    border-left: 3px solid #4C89F3;
+}
+.faq h3 {
+    cursor: pointer;
+}
+
+
+
+
+
